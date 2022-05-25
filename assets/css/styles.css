@@ -1,6 +1,10 @@
 :root {
+    /* declaring css color variables */
     --dark-green: #ccd5ae;
     --light-green: #e9edc9;
+    --white: #fefae0;
+    --light-brown: #faedcd;
+    --dark-brown: #d4a373;
 }
 
 nav {
