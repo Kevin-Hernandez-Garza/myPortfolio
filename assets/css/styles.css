@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@300;400;700&display=swap');
+
 :root {
     /* declaring css color variables */
     --dark-green: #ccd5ae;
@@ -7,10 +9,58 @@
     --dark-brown: #d4a373;
 }
 
+body {
+    /* this helps from content being hidden behind the footer */
+    padding-bottom: 70px;
+    background-color: var(--light-green);
+    font-family: 'Spline Sans Mono', monospace, sans-serif;
+}
+
 nav {
     background-color: var(--dark-green);
 }
 
-.navbar-toggler:hover {
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-toggler:hover, a.nav-link:hover {
     background-color: var(--light-green);
+}
+
+footer {
+    flex-direction: column;
+    background-color: var(--dark-green);
+}
+
+.links {
+    padding: 1rem;
+}
+
+.fa-linkedin:hover {
+    background: #0072b1;
+    color: white;
+}
+
+.fa-github:hover {
+    background: #000;
+    color: #fff;
+}
+
+.fa-file-pdf:hover {
+    background: #d90429;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+
+.fa-google:hover {
+    background: linear-gradient(#EA4335, #FBBC05, #34A853, #4285F4);
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+
+.fa-phone:hover {
+    background: #fff;
+    color: #000;
+    text-shadow: 1px 1px #4285F4;
 }
