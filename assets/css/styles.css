@@ -16,6 +16,8 @@ body {
     font-family: 'Spline Sans Mono', monospace, sans-serif;
 }
 
+
+/* navigation */
 nav {
     background-color: var(--dark-green);
 }
@@ -39,7 +41,12 @@ footer {
     width: 48px;
     height: 48px;
 }
+/* navigation end */
 
+
+
+
+/* footer */
 .fa-linkedin:hover {
     background: #0072b1;
     color: white;
@@ -66,4 +73,14 @@ footer {
     background: #fff;
     color: #000;
     text-shadow: 1px 1px #909595;
+}
+/* footer end */
+
+
+
+/* MEDIA QUERIES */
+
+/* screen sizes 992px or smaller */
+@media screen and (max-width: 992px) {
+   
 }
