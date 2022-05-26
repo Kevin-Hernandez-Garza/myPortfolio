@@ -11,8 +11,8 @@
 
 body {
     /* this helps from content being hidden behind the footer */
-    padding-bottom: 150px;
-    padding-top: 100px;
+    /* padding-bottom: 150px;
+    padding-top: 100px; */
     background-color: var(--light-green);
     font-family: 'Spline Sans Mono', monospace, sans-serif;
 }
