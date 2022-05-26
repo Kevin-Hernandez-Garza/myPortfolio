@@ -11,7 +11,8 @@
 
 body {
     /* this helps from content being hidden behind the footer */
-    padding-bottom: 70px;
+    padding-bottom: 150px;
+    padding-top: 100px;
     background-color: var(--light-green);
     font-family: 'Spline Sans Mono', monospace, sans-serif;
 }
@@ -25,15 +26,13 @@ nav {
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: 700;
+    text-shadow: 1px 1px #000;
 }
 
-.navbar-toggler:hover, a.nav-link:hover {
-    background-color: var(--light-green);
-}
-
-footer {
-    flex-direction: column;
-    background-color: var(--dark-green);
+a.navbar-brand:hover {
+    color: #000!important;
+    font-weight: 300;
+    text-shadow: 1px 1px white;
 }
 
 .links {
@@ -43,10 +42,11 @@ footer {
 }
 /* navigation end */
 
-
-
-
 /* footer */
+footer {
+    background-color: var(--dark-green);
+}
+
 .fa-linkedin:hover {
     background: #0072b1;
     color: white;
@@ -82,5 +82,7 @@ footer {
 
 /* screen sizes 992px or smaller */
 @media screen and (max-width: 992px) {
-   
+    .navbar-toggler:hover, a.nav-link:hover {
+        background-color: var(--light-green);
+    }
 }
