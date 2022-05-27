@@ -10,29 +10,27 @@
 }
 
 body {
-    /* this helps from content being hidden behind the footer */
-    /* padding-bottom: 150px;
-    padding-top: 100px; */
     background-color: var(--light-green);
     font-family: 'Spline Sans Mono', monospace, sans-serif;
 }
 
+.container-fluid {
+    margin-top: 100px;
+}
 
 /* navigation */
-nav {
+/* nav {
     background-color: var(--dark-green);
-}
+} */
 
 .navbar-brand {
     font-size: 1.5rem;
-    font-weight: 700;
-    text-shadow: 1px 1px #000;
+    color: #000!important;
 }
 
 a.navbar-brand:hover {
     color: #000!important;
-    font-weight: 300;
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px gray;
 }
 
 .links {
@@ -41,6 +39,27 @@ a.navbar-brand:hover {
     height: 48px;
 }
 /* navigation end */
+
+/* hero */
+.heroHeading h2 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+/* hero end */
+
+/* about */
+h2.display-5 {
+    font-weight: 100;
+}
+
+h2.display-4 {
+    font-weight: 500;
+}
+
+h2.unique {
+    color:#34A853;
+}
+/* about end */
 
 /* footer */
 footer {
@@ -79,10 +98,23 @@ footer {
 
 
 /* MEDIA QUERIES */
+/* screen sizes 1220px or smaller */
+@media screen and (max-width: 1220px) {
+    p {
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+}
 
-/* screen sizes 992px or smaller */
 @media screen and (max-width: 992px) {
     .navbar-toggler:hover, a.nav-link:hover {
         background-color: var(--light-green);
+    }
+
+    #about {
+        text-align: center;
+        justify-content: center;
+        padding: 1rem;
+        line-height: 2;
     }
 }
