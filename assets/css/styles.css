@@ -19,10 +19,6 @@ body {
 }
 
 /* navigation */
-/* nav {
-    background-color: var(--dark-green);
-} */
-
 .navbar-brand {
     font-size: 1.5rem;
     color: #000!important;
@@ -96,6 +92,12 @@ footer {
 /* footer end */
 
 
+/* when user scrolls down the navbar gets a background color */
+.navbar.scrolled {
+    background-color: var(--dark-green);
+    transition: background 1000ms;
+}
+
 
 /* MEDIA QUERIES */
 /* screen sizes 1220px or smaller */
@@ -107,6 +109,10 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
+    .container-fluid {
+        margin-top: 50px;
+    }
+
     .navbar-toggler:hover, a.nav-link:hover {
         background-color: var(--light-green);
     }
