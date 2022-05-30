@@ -57,6 +57,17 @@ h2.unique {
 }
 /* about end */
 
+/* project */
+a:hover {
+    cursor: pointer;
+}
+
+.proIcon {
+    color: #000!important;
+    background: none!important;
+}
+/* project end */
+
 /* footer */
 footer {
     background-color: var(--dark-green);
