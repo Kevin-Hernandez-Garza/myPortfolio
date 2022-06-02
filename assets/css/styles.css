@@ -111,14 +111,7 @@ footer {
 
 
 /* MEDIA QUERIES */
-/* screen sizes 1220px or smaller */
-@media screen and (max-width: 1220px) {
-    p {
-        font-weight: 300;
-        font-size: 0.8rem;
-    }
-}
-
+/* screen sizes 992px or smaller */
 @media screen and (max-width: 992px) {
     .container-fluid {
         margin-top: 25px;
@@ -128,14 +121,22 @@ footer {
         background-color: var(--light-green);
     }
 
-    #about {
+    .navbar {
+        background-color: var(--dark-green);
+    }
+
+    .display-4 {
+        font-size: 2rem;
         text-align: center;
+    }
+
+    #about {
         justify-content: center;
         padding: 1rem;
         line-height: 2;
     }
-    
-    .navbar {
-        background-color: var(--dark-green);
+
+    .about-intro {
+        font-size: 17px;
     }
 }
