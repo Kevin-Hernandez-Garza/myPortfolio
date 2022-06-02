@@ -66,6 +66,10 @@ a:hover {
     color: #000!important;
     background: none!important;
 }
+
+.card-text {
+    line-height: 2;
+}
 /* project end */
 
 /* footer */
