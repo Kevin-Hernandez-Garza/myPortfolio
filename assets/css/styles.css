@@ -107,6 +107,7 @@ footer {
 /* footer end */
 
 
+/* NAVBAR */
 /* when user scrolls down the navbar gets a background color */
 .navbar.scrolled {
     background-color: var(--dark-green);
